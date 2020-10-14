@@ -1,0 +1,24 @@
+<p>display works!</p>
+<div>
+
+    <table>
+     <tr>
+         <th>
+             empId
+         </th>
+         <th>
+             empname
+         </th>
+         <th>
+             empAdd
+         </th>
+     </tr>
+     <tr *ngFor="let c of arrdata">
+        <td>{{c.empid}}</td>
+        <td>{{c.empName}}</td>
+        <td>{{c.empAdd}}</td>
+     </tr>
+
+    </table>
+
+</div>
