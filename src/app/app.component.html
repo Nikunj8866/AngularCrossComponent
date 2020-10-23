@@ -1,5 +1,10 @@
 
+<p appAppinfo [fcolor]="'blue'" [lcolor]="'black'"> this is testing  </p>
 
+<div *appAppnot="status">
+    <p>this is direactive</p>
+</div>
+<button type="button" (click)="addfun()">clickme</button>
 <app-input (serverdata)="addrecord($event)" ></app-input>
 
 <app-display [arrdata]="arrdata1"></app-display>

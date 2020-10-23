@@ -4,12 +4,16 @@ import {FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { InputComponent } from './input/input.component';
 import { DisplayComponent } from './display/display.component';
+import { AppinfoDirective } from './appinfo.directive';
+import { AppnotDirective } from './appnot.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     InputComponent,
-    DisplayComponent
+    DisplayComponent,
+    AppinfoDirective,
+    AppnotDirective
   ],
   imports: [
     BrowserModule,
